@@ -17,3 +17,6 @@ fi
 # Find a string in all files in current directory
 grep "some string" . -R
 
+# Split a string in bash
+${"When in Rome":4}
+
