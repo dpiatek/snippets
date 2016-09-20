@@ -14,3 +14,6 @@ if ! exists jq; then
   exit 1
 fi
 
+# Find a string in all files in current directory
+grep "some string" . -R
+
