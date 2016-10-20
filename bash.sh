@@ -20,3 +20,11 @@ grep "some string" . -R
 # Split a string in bash
 ${"When in Rome":4}
 
+
+# display free disk space
+df
+
+# display directory size
+du -sh /dir
+
+
