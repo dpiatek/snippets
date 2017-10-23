@@ -1,0 +1,6 @@
+# Install specific version
+
+cd "$(brew --repo homebrew/core)"
+git log master -- Formula/FORMULATE_NAME.rb
+git checkout FORMULATE_NAME_VERSION_SHA
+HOMEBREW_NO_AUTO_UPDATE=1 brew install FORMULATE_NAME
