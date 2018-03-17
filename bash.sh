@@ -34,6 +34,3 @@ du -sh /dir
 # v: makes tar talk a lot. Verbose output shows you all the files being extracted.
 
 tar -xvzf file.tar.gz
-
-
-
